@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:xastir_udp_client.xcodeproj">
+      location = "self:/Users/jeffmc/HamRadio/xastir_udp_client/XastirUDPClient.xcodeproj">
    </FileRef>
 </Workspace>

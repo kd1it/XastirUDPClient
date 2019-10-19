@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DB78169B235B988500ED052B /* xastir_udp_client */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = xastir_udp_client; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB78169B235B988500ED052B /* XastirUDPClient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XastirUDPClient; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB78169E235B988500ED052B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +49,7 @@
 		DB78169C235B988500ED052B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DB78169B235B988500ED052B /* xastir_udp_client */,
+				DB78169B235B988500ED052B /* XastirUDPClient */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,9 +65,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DB78169A235B988500ED052B /* xastir_udp_client */ = {
+		DB78169A235B988500ED052B /* XastirUDPClient */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB7816A2235B988600ED052B /* Build configuration list for PBXNativeTarget "xastir_udp_client" */;
+			buildConfigurationList = DB7816A2235B988600ED052B /* Build configuration list for PBXNativeTarget "XastirUDPClient" */;
 			buildPhases = (
 				DB781697235B988500ED052B /* Sources */,
 				DB781698235B988500ED052B /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = xastir_udp_client;
+			name = XastirUDPClient;
 			productName = xastir_udp_client;
-			productReference = DB78169B235B988500ED052B /* xastir_udp_client */;
+			productReference = DB78169B235B988500ED052B /* XastirUDPClient */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +96,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DB781696235B988500ED052B /* Build configuration list for PBXProject "xastir_udp_client" */;
+			buildConfigurationList = DB781696235B988500ED052B /* Build configuration list for PBXProject "XastirUDPClient" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DB78169A235B988500ED052B /* xastir_udp_client */,
+				DB78169A235B988500ED052B /* XastirUDPClient */,
 			);
 		};
 /* End PBXProject section */
@@ -176,7 +176,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -228,7 +228,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -258,7 +258,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DB781696235B988500ED052B /* Build configuration list for PBXProject "xastir_udp_client" */ = {
+		DB781696235B988500ED052B /* Build configuration list for PBXProject "XastirUDPClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB7816A0235B988600ED052B /* Debug */,
@@ -267,7 +267,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB7816A2235B988600ED052B /* Build configuration list for PBXNativeTarget "xastir_udp_client" */ = {
+		DB7816A2235B988600ED052B /* Build configuration list for PBXNativeTarget "XastirUDPClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB7816A3235B988600ED052B /* Debug */,
